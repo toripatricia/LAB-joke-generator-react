@@ -11,6 +11,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
+  parser: '@babel/eslint-parser',
   plugins: ['react', 'prettier'],
   rules: {
     'no-unused-vars': 'error',
